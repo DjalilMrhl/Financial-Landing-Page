@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* a, * button {
+  cursor: pointer;
+}
+
+html, :root {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body, #root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+img {
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=index.css.map */

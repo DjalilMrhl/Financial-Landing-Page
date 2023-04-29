@@ -1,0 +1,48 @@
+.about {
+  background-color: black;
+  color: white;
+  padding-block: clamp(6em, 15vw, 11em);
+}
+.about--container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+@media (max-width: 800px) {
+  .about--container {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+}
+.about--container article h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #11cd6c;
+  margin-bottom: 0.5em;
+}
+.about--container article h1 {
+  font-size: clamp(1.4rem, 5vw, 3rem);
+  margin-bottom: 0.5em;
+}
+.about--container article p {
+  font-size: clamp(1rem, 5vw, 1.4rem);
+}
+.about--container article button {
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  text-transform: capitalize;
+  border-radius: 50px;
+  border: none;
+  background-color: #11cd6c;
+  margin-top: 2em;
+}
+.about--container img {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .about--container img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,81 @@
+    nav {
+        font-size: 1.5rem;
+        font-weight: 300;
+        position: fixed;
+        z-index: 10;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4em;
+        background-color: black;
+        transform: translateY(-100%);
+        opacity: 0;
+        padding-left: 30em;
+        transition: all .6s ease-in-out;
+        @media (max-width: 415px) {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        button {
+            font-size: 2.5rem;
+            margin-left: 2em;
+            color: aliceblue;
+            background-color: black;
+            border: none;
+            transition: all .8s ease-in-out;
+            &:hover {
+                color: #11cd6c;
+            }
+        }
+
+        #btn {
+            font-size: 1rem;
+            text-decoration: none;
+            text-transform: capitalize;
+            align-self: center;
+            padding: .5em 1.5em;
+            margin-top: 4em;
+            border-radius: 50px;
+            border: none;
+            background-color: #11cd6c;
+            color: black;
+            transition: all .6s;
+            &:hover {
+                background-color: white;
+            }
+        }
+
+        ul {
+            width: 7rem;
+            text-transform: capitalize;
+            list-style: none;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            li {
+                text-decoration: none;
+                color: aliceblue;
+                transition: all .6s;
+                &:hover {
+                    cursor: pointer;
+                    padding-left: 10px;
+                    color: #11cd6c;
+                }
+                &.active {
+                    color: #11cd6c;
+                }
+            }
+        }
+    }
+        .show-menu {
+            transform: translateY(0%);
+            opacity: 1;
+            padding: 0;
+            button {
+                transform: translateX(-300%) rotate(-180deg);
+            }
+        }

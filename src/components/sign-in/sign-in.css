@@ -1,0 +1,71 @@
+.sign-in--page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: white;
+  background-color: #1ed06b;
+}
+.sign-in--page #logo {
+  text-decoration: none;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  font-family: "Kanit", sans-serif;
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 700;
+  color: white;
+}
+.sign-in--page--container {
+  font-size: clamp(0.4rem, 4vw, 1rem);
+  width: min(90%, 24rem);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border-radius: 5px;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+}
+.sign-in--page--container h1 {
+  font-size: clamp(0.5rem, 4vw, 1.3rem);
+  font-weight: 300;
+}
+.sign-in--page--container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.sign-in--page--container form label {
+  font-size: clamp(0.4rem, 4vw, 1rem);
+  display: flex;
+  flex-direction: column;
+}
+.sign-in--page--container form label input {
+  height: 3rem;
+  border-radius: 5px;
+  margin-block: 0.5em 2em;
+  padding-inline: 0.5em;
+}
+.sign-in--page--container form label input:focus {
+  outline: none;
+}
+.sign-in--page--container form button {
+  font-size: clamp(0.5rem, 4vw, 1.3rem);
+  border-radius: 5px;
+  padding-block: 0.7em;
+  margin-bottom: 1em;
+  background-color: #1ed06b;
+  color: white;
+  border: none;
+}
+.sign-in--page--container form a {
+  font-size: clamp(0.4rem, 4vw, 1rem);
+  align-self: center;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=sign-in.css.map */

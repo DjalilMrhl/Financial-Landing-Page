@@ -1,0 +1,47 @@
+.sign-up {
+    background-color: white;
+    color: black;
+    padding-block: clamp(6em, 15vw, 11em);
+    &--container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        @media (max-width: 800px) {
+            flex-direction: column;
+            padding-bottom: 0;
+        }
+        article {
+            h4 {
+                text-transform: uppercase;
+                font-size: 1rem;
+                color: #11cd6c;
+                margin-bottom: .5em;
+            }
+            h1 {
+                font-size: clamp(1.4rem, 5vw,3rem);
+                margin-bottom: .5em;
+            }
+            p {
+                font-size: clamp(1rem, 5vw, 1.4rem);
+            }
+            button {
+                font-size: 1rem;
+                padding: .6em 1em;
+                text-transform: capitalize;
+                border-radius: 50px;
+                border: none;
+                background-color: #3e3b3b;
+                color: white;
+                margin-top: 2em;
+            }
+        }
+        img {
+            width: 50%;
+            @media (max-width:800px) {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+footer {
+  padding-top: 5em;
+  background-color: black;
+  color: white;
+}
+
+.footer--container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5em;
+}
+.footer--container--1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-items: flex-start;
+  row-gap: 2em;
+}
+.footer--container--1 ul {
+  padding-left: 3em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+.footer--container--1 ul > span {
+  font-weight: 700;
+}
+.footer--container--2 {
+  padding-bottom: 2em;
+  flex-basis: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1;
+  gap: 1em;
+  align-items: center;
+}
+.footer--container--2 #logo-home {
+  font-size: clamp(1.5rem, 4vw, 1.7rem);
+  text-decoration: none;
+  font-weight: 500;
+  cursor: default;
+}
+.footer--container--2 p {
+  font-size: 0.7rem;
+}
+.footer--container--2 ul {
+  display: flex;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}/*# sourceMappingURL=footer.css.map */
