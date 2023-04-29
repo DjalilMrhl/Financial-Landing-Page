@@ -1,5 +1,5 @@
 import React from 'react'
-import './discover.scss'
+import './discover.css'
 import img from './original-5a9c24badcceaa75cd248b84be4f6fc7.webp'
 
 function Discover(props) {

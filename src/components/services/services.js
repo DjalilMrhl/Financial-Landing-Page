@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.scss'
+import './services.css'
 import img1 from './original-870301a45dc3b9ff12e9428493563514.webp'
 import img2 from './original-a3b882256321dd0153922913ac9ac7b4.webp'
 import img3 from './original-ad5b47636617c31353d0af169bf175a8.webp'

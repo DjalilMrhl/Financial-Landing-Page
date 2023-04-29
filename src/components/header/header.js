@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.scss'
+import './header.css'
 import {Link} from 'react-scroll'
 import { Link as LinkRouter } from 'react-router-dom';
 

@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { Link } from 'react-scroll'
-import './footer.scss'
+import './footer.css'
 
 function Footer(props) {
   return (

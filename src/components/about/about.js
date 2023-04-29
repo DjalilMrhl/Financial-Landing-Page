@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.scss'
+import './about.css'
 import img from './original-d034d1bb1868fd90f5f5f3bf448a3f55.webp'
 
 function About(props) {

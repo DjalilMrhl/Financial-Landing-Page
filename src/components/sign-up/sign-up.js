@@ -1,5 +1,5 @@
 import React from 'react'
-import './sign-up.scss'
+import './sign-up.css'
 import img from './original-9676f982b46bd8d6910d4eafb8b5706e.webp'
 import { Link } from 'react-scroll';
 

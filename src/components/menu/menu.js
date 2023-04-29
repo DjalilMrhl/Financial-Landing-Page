@@ -1,4 +1,4 @@
-import './menu.scss'
+import './menu.css'
 import {Link} from 'react-scroll'
 import { NavLink } from 'react-router-dom';
 

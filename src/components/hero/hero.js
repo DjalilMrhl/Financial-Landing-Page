@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll';
-import './hero.scss'
+import './hero.css'
 import video from './pexels-cottonbro-studio-3945149-426x226-25fps.mp4'
 
 function Hero(props) {
